@@ -21,13 +21,18 @@
     margin: 50px;
     cursor: pointer;
 }
-.title1 {
-    display: grid;
-    place-items: center;
+.title1-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+    text-align: center;
+}
+.title2-container {
     height: 600px;
 }
-.title2 {
-    display: grid;
-    place-items: center;
-    height: 600px;
+.title1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
 }
