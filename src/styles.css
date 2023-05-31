@@ -1,0 +1,33 @@
+.inactive {
+    display: none;
+}
+.main-buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.main-button1 {
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    margin: 50px;
+    cursor: pointer;
+}
+.main-button2 {
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    margin: 50px;
+    cursor: pointer;
+}
+.title1 {
+    display: grid;
+    place-items: center;
+    height: 600px;
+}
+.title2 {
+    display: grid;
+    place-items: center;
+    height: 600px;
+}

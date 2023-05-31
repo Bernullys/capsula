@@ -1,0 +1,24 @@
+{
+  "name": "capsula",
+  "version": "1.0.0",
+  "description": "Desarrolla pagina web para Capsula",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bernullys/capsula.git"
+  },
+  "keywords": [
+    "Mauricio",
+    "Victor",
+    "Freddy"
+  ],
+  "author": "BADR <bernardoantoniod@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bernullys/capsula/issues"
+  },
+  "homepage": "https://github.com/Bernullys/capsula#readme"
+}
