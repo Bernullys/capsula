@@ -1,9 +1,19 @@
-const mainButton1 = document.querySelector(".main-button1");
-const title1 = document.querySelector(".title1-container");
+const ownDisignButton = document.querySelector(".own-design-button");
+const squareMetersPage = document.querySelector(".squareMetersPage-container");
+const ppalPage = document.querySelector(".first-page");
+const backToPpalButton = document.getElementById("back-to-ppal-button");
 
-mainButton1.addEventListener("click", togglePagina2);
+ownDisignButton.addEventListener("click", goTosquareMeters);
+backToPpalButton.addEventListener("click", goToPpalPage)
 
-function togglePagina2 () {
-    title1.classList.toggle("inactive");
+function goTosquareMeters () {
+    squareMetersPage.classList.remove("inactive");
+    ppalPage.classList.add("inactive");
+
 };
+
+function goToPpalPage () {
+    ppalPage.classList.remove("inactive");
+    squareMetersPage.add("inactive")
+}
 
