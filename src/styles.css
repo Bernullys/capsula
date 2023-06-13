@@ -1,3 +1,12 @@
+:root {
+    --amarillito: #FFD038;
+    --azulito: #00A5A9;
+    --marino: #3A3A88
+    --oranchis: #FFA11D;
+    --brownsy: #FE8228;
+    --blaky: black;
+    --white: white;
+}
 .inactive {
     display: none;
 }
